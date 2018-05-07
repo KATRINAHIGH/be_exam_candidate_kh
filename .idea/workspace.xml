@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a047740-26f4-4f30-bb9d-d89d2c12138c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scoir/parser/FileSystemService.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSystemService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileSystemService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="137">
+              <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSystemServiceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileSystemServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="249">
+              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +120,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/FileSystemServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java" />
       </list>
     </option>
   </component>
@@ -158,9 +159,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-38" />
+    <option name="y" value="80" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -295,32 +296,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileSystemServiceTest.watchForChanges">
+  <component name="RunManager" selected="JUnit.FileSystemServiceTest.isCsv_XMLFile_shouldReturnFalse">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.scoir.parser.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.scoir.parser.App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="be_exam_candidate_kh" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -335,6 +317,106 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="FileSystemServiceTest.isCsv_FileTypeInPathNoExtension_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scoir.parser.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="be_exam_candidate_kh" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scoir.parser.services" />
+      <option name="MAIN_CLASS_NAME" value="com.scoir.parser.services.FileSystemServiceTest" />
+      <option name="METHOD_NAME" value="isCsv_FileTypeInPathNoExtension_shouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FileSystemServiceTest.isCsv_FileTypeInPath_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scoir.parser.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="be_exam_candidate_kh" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scoir.parser.services" />
+      <option name="MAIN_CLASS_NAME" value="com.scoir.parser.services.FileSystemServiceTest" />
+      <option name="METHOD_NAME" value="isCsv_FileTypeInPath_shouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FileSystemServiceTest.isCsv_HappyPath_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scoir.parser.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="be_exam_candidate_kh" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scoir.parser.services" />
+      <option name="MAIN_CLASS_NAME" value="com.scoir.parser.services.FileSystemServiceTest" />
+      <option name="METHOD_NAME" value="isCsv_HappyPath_shouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FileSystemServiceTest.isCsv_XMLFile_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scoir.parser.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="be_exam_candidate_kh" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scoir.parser.services" />
+      <option name="MAIN_CLASS_NAME" value="com.scoir.parser.services.FileSystemServiceTest" />
+      <option name="METHOD_NAME" value="isCsv_XMLFile_shouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="FileSystemServiceTest.watchForChanges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -421,14 +503,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.App" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.watchForChanges" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.watchForChanges" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_HappyPath_shouldReturnTrue" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_FileTypeInPath_shouldReturnTrue" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_FileTypeInPathNoExtension_shouldReturnFalse" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_XMLFile_shouldReturnFalse" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.watchForChanges" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_XMLFile_shouldReturnFalse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_FileTypeInPathNoExtension_shouldReturnFalse" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_FileTypeInPath_shouldReturnTrue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.isCsv_HappyPath_shouldReturnTrue" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FileSystemServiceTest.watchForChanges" />
       </list>
     </recent_temporary>
   </component>
@@ -446,11 +534,20 @@
       <option name="presentableId" value="Default" />
       <updated>1525704468758</updated>
       <workItem from="1525704470465" duration="2045000" />
-      <workItem from="1525706527844" duration="4663000" />
+      <workItem from="1525706527844" duration="4980000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="FileSystemServiceTest_isCsv_FileTypeInPathNoExtension_shouldReturnFalse - 2018.05.07 at 12h 49m 31s.xml">
+      <configuration name="FileSystemServiceTest.isCsv_FileTypeInPathNoExtension_shouldReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileSystemServiceTest_isCsv_FileTypeInPath_shouldReturnTrue - 2018.05.07 at 12h 49m 26s.xml">
+      <configuration name="FileSystemServiceTest.isCsv_FileTypeInPath_shouldReturnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileSystemServiceTest_isCsv_HappyPath_shouldReturnTrue - 2018.05.07 at 12h 49m 21s.xml">
+      <configuration name="FileSystemServiceTest.isCsv_HappyPath_shouldReturnTrue" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FileSystemServiceTest_watchForChanges - 2018.05.07 at 12h 35m 30s.xml">
       <configuration name="FileSystemServiceTest.watchForChanges" configurationId="JUnit" />
     </history-entry>
@@ -459,10 +556,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6708000" />
+    <option name="totallyTimeSpent" value="7025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="-38" y="80" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -473,9 +570,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34201956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2625202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -571,20 +668,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="137">
+          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="249">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
