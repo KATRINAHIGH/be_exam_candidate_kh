@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a047740-26f4-4f30-bb9d-d89d2c12138c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,10 +43,12 @@
       <file leaf-file-name="FileSystemService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -645,7 +645,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525704468758</updated>
       <workItem from="1525704470465" duration="2045000" />
-      <workItem from="1525706527844" duration="19353000" />
+      <workItem from="1525706527844" duration="19649000" />
     </task>
     <servers />
   </component>
@@ -682,7 +682,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21398000" />
+    <option name="totallyTimeSpent" value="21694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,10 +997,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>

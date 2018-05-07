@@ -64,9 +64,8 @@ public class FileSystemService implements IFileSystemService{
     public void watchForChanges(){
 
         try {
-            //TODO: create globals for input, output and error paths
             //get the input paths from system properties
-            String inputPathString = System.getProperty("inputpath.csv");
+            String inputPathString = System.getProperty(Globals.InputPath);
             //interface way to locate file in the system, a way to access part of system, creates a path from a string
             // that allows you to access part of file system
             Path inputPath = Paths.get(inputPathString);
