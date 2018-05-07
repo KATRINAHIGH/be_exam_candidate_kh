@@ -19,6 +19,11 @@ public class FileSystemServiceTest {
     public void watchForChanges() {
     }
 
+    //TODO: break down method for better testability
+    @Test
+    public void ensureDirectoriesExist() {
+    }
+
     @Test
     public void isCsv_HappyPath_shouldReturnTrue() {
         FileSystemService testFSS = new FileSystemService();
@@ -46,4 +51,6 @@ public class FileSystemServiceTest {
         boolean actual = testFSS.isCsv("/testPath.xml");
         Assert.assertFalse(actual);
     }
+
+
 }
