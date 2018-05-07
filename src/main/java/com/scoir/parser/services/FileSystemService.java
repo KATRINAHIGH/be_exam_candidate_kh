@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 
-public class FileSystemService {
+public class FileSystemService implements IFileSystemService{
     //TODO: breakup ensureDirectoriesExist for better testing, research suppresswarnings,
     /**
      *

@@ -16,7 +16,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class Csv2JsonService {
+public class Csv2JsonService implements ICsv2JsonService{
 
     //Maps csv to json using jackson.
 // https://github.com/FasterXML/jackson-dataformats-text/tree/master/csv

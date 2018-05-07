@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class ConfigService {
+public class ConfigService implements IConfigService{
 
     /**
      *Load data from config file and set paths as system/environment/global variables
