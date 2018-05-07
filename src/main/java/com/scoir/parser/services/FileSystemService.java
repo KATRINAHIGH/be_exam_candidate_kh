@@ -34,7 +34,9 @@ public class FileSystemService {
                     Path filePath = Paths.get(inputPathString, event.context().toString());
 
                     //check if it's a csv file if not then skip this file don't throw errors
-                    //TODO: write isCsv method and check filepath here
+                    if(!isCsv(filePath.toString())) {
+                        continue;
+                    }
 
                     //TODO: write this piece I think it needs a db to function properly
                     //if file is a csv then check to see if already processed? If yes, continue skip to next loop
@@ -52,5 +54,19 @@ public class FileSystemService {
             e.printStackTrace();
         }
 
+    }
+
+    /**
+     *takes in filePath as a string and checks that the last three characters after the . are equal to csv
+     * @param filePath the filename to retrieve the extension of
+     * @return true if extension equals csv and false otherwise
+     */
+    public boolean isCsv(String filePath){
+        //https://stackoverflow.com/a/3571239
+        int i = filePath.lastIndexOf('.');
+        if(i > 1){
+            return filePath.substring(i+1).equals("csv");
+        }
+        return false;
     }
 }
