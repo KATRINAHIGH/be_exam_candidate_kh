@@ -7,6 +7,17 @@ import java.io.IOException;
 import java.nio.file.*;
 
 public class FileSystemService implements IFileSystemService{
+
+    private ICsv2JsonService csvProcessor;
+
+    /**
+     *
+     * @param processor
+     */
+    public void setCsvProcessor(ICsv2JsonService processor){
+        this.csvProcessor = processor;
+    }
+
     //TODO: breakup ensureDirectoriesExist for better testing, research suppresswarnings,
     /**
      *
@@ -83,7 +94,7 @@ public class FileSystemService implements IFileSystemService{
                     //if no ignore or go to the next step
 
                     //process csv file, path class has a toFile method
-                    //TODO: write class to process csv file
+                    this.csvProcessor.processCsvFile(filePath.toFile());
 
                 }
                 //compares current snapshot to previous snapshot of a folder if differences responds, don't fully understand research more

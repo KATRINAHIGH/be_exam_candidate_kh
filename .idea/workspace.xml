@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a047740-26f4-4f30-bb9d-d89d2c12138c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/IFileSystemService.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,31 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Globals.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/Globals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testconfig1.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testconfig1.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Csv2JsonService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="101">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileSystemService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,12 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IFileSystemService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IFileSystemService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/IFileSystemService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,10 +161,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/FileSystemServiceTest.java" />
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/Globals.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/ConfigServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testconfig1.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/FileSystemServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/models/NameTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -170,10 +175,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/models/CsvRecordTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/models/Csv2JsonService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scoir/parser/services/Csv2JsonServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/IConfigService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ICsv2JsonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/IFileSystemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java" />
       </list>
     </option>
   </component>
@@ -638,7 +645,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525704468758</updated>
       <workItem from="1525704470465" duration="2045000" />
-      <workItem from="1525706527844" duration="19218000" />
+      <workItem from="1525706527844" duration="19353000" />
     </task>
     <servers />
   </component>
@@ -675,7 +682,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21263000" />
+    <option name="totallyTimeSpent" value="21398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,26 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#294#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/Globals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -936,16 +923,6 @@
           <folding>
             <element signature="e#90#91#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -995,6 +972,36 @@
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/ConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/Csv2JsonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoir/parser/services/FileSystemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
