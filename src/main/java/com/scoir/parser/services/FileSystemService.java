@@ -1,9 +1,49 @@
 package com.scoir.parser.services;
 
+import com.scoir.parser.Globals;
+
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 
 public class FileSystemService {
+    //TODO: breakup ensureDirectoriesExist for better testing, research suppresswarnings,
+    /**
+     *
+     */
+    @SuppressWarnings("ResultOfMethodCallIgnored")
+    public void ensureDirectoriesExist() {
+        //check if directory exists
+        //https://stackoverflow.com/a/15571626
+
+        //create input path if it doesn't exist
+        String inputPathString = System.getProperty(Globals.InputPath);
+        Path inputPath = Paths.get(inputPathString);
+        if(Files.notExists(inputPath)){
+            //make folder and all necessary parent folders
+            //https://stackoverflow.com/a/3634906
+            new File(inputPathString).mkdirs();
+        }
+
+        //create output path if it doesn't exist
+        String outputPathString = System.getProperty(Globals.OutputPath);
+        Path outputPath = Paths.get(outputPathString);
+        if (Files.notExists(outputPath)){
+            //make folder and all necessary folders
+            //https://stackoverflow.com/3634906
+            new File(outputPathString).mkdirs();
+        }
+
+        //create error path if it doesn't exist
+        String errorPathString = System.getProperty(Globals.ErrorPath);
+        Path errorPath = Paths.get(errorPathString);
+        if (Files.notExists(errorPath)){
+            //make folder and all necessary folders
+            //https://stackoverflow.com/3634906
+            new File(errorPathString).mkdirs();
+        }
+
+    }
 
     /**
      *continuously monitors input-directory for new .csv files
