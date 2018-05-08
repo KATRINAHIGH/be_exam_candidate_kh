@@ -76,6 +76,15 @@ public class Csv2JsonService implements ICsv2JsonService{
                 File jsonFile = getJsonPath(csv).toFile();
                 jsonMapper.writeValue(jsonFile, validRecords);
             }
+
+            // delete csv file
+            csv.delete();
+            StringBuilder sb = new StringBuilder();
+            sb.append("Processed file ").append(csv.getName()).append("\n");
+            sb.append("\t").append(validRecords.size()).append(" valid rows\n");
+            sb.append("\t").append(invalidRecords.size()).append(" invalid rows\n\n");
+            System.out.print(sb.toString());
+
         } catch (IOException e) {
             e.printStackTrace();
         }
